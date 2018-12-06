@@ -5,7 +5,7 @@ namespace EfBug.Data
     public class AppContext : DbContext
     {
         public AppContext(DbContextOptions<AppContext> options)
-        : base(options)
+            : base(options)
         {
         }
 
